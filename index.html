@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tamashii Intro</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.167.1/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.167.1/examples/jsm/"
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="first">
+      <div class="fixed">
+        <div class="step1">
+          <div class="logo">
+            <img
+              src="./assets/logo.svg"
+              width="403"
+              height="258"
+              alt="Tamashii"
+              title="Tamashii"
+            />
+          </div>
+          <div class="intro">
+            <p>
+              “Abbiamo viaggiato nei luoghi più remoti della Terra, alla
+              scoperta di tradizioni antichissime e di oggetti dal forte
+              significato”
+            </p>
+          </div>
+          <div class="scroll">
+            <span>scroll to discover</span>
+          </div>
+        </div>
+        <div class="step2"><span>SECTION 2</span></div>
+        <div class="step3"><span>SECTION 3</span></div>
+        <div id="webgl"></div>
+      </div>
+    </section>
+    <section id="second"><span>CONTENT</span></section>
+    <footer id="footer"><span>FOOTER</span></footer>
+    <script src="./inlcudes/gsap.min.js"></script>
+    <script src="./inlcudes/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
+    <script type="module" src="./inlcudes/webgl.js"></script>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
